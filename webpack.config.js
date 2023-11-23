@@ -9,6 +9,10 @@
      filename: 'bundle.js',
      path: path.resolve(__dirname, 'dist'),
    },
+   devServer: {
+    static: false,
+    port: 4000,
+  },
    performance: {
     hints: false
   },
